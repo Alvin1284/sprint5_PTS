@@ -1,15 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PTS Library",
-    "\\PTS Library\\Facade Objects",
-    "\\PTS Library\\obj",
-    "\\PTS Library\\obj\\Debug",
-    "\\PTS Library\\obj\\Debug\\net6.0",
-    "\\PTS Library\\obj\\Debug\\net6.0\\ref",
-    "\\PTS Library\\obj\\Debug\\net6.0\\refint",
-    "\\PTS Library\\obj\\Release",
-    "\\PTS Library\\obj\\Release\\net6.0"
+    "\\admin",
+    "\\PTSLibrary",
+    "\\PTSLibrary\\Facade Objects"
   ],
+  "SelectedNode": "\\PTSLibrary\\PTSLibrary.sln",
   "PreviewInSolutionExplorer": false
 }

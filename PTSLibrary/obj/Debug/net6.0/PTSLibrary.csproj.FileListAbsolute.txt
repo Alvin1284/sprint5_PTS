@@ -13,3 +13,16 @@ C:\Users\alvin\OneDrive\Desktop\Sepa\ClassLibrary1\obj\Debug\net6.0\PTSLibrary.d
 C:\Users\alvin\OneDrive\Desktop\Sepa\ClassLibrary1\obj\Debug\net6.0\refint\PTSLibrary.dll
 C:\Users\alvin\OneDrive\Desktop\Sepa\ClassLibrary1\obj\Debug\net6.0\PTSLibrary.pdb
 C:\Users\alvin\OneDrive\Desktop\Sepa\ClassLibrary1\obj\Debug\net6.0\ref\PTSLibrary.dll
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\bin\Debug\net6.0\PTSLibrary.dll.config
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\bin\Debug\net6.0\PTSLibrary.deps.json
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\bin\Debug\net6.0\PTSLibrary.dll
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\bin\Debug\net6.0\PTSLibrary.pdb
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\obj\Debug\net6.0\PTSLibrary.csproj.AssemblyReference.cache
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\obj\Debug\net6.0\PTSLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\obj\Debug\net6.0\PTSLibrary.AssemblyInfoInputs.cache
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\obj\Debug\net6.0\PTSLibrary.AssemblyInfo.cs
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\obj\Debug\net6.0\PTSLibrary.csproj.CoreCompileInputs.cache
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\obj\Debug\net6.0\PTSLibrary.dll
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\obj\Debug\net6.0\refint\PTSLibrary.dll
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\obj\Debug\net6.0\PTSLibrary.pdb
+C:\Users\alvin\OneDrive\Desktop\SEPA\PTSLibrary\obj\Debug\net6.0\ref\PTSLibrary.dll

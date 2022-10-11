@@ -1,6 +1,0 @@
-C:\Users\alvin\OneDrive\Desktop\Sepa\admin\bin\Debug\admin.dll
-C:\Users\alvin\OneDrive\Desktop\Sepa\admin\bin\Debug\admin.pdb
-C:\Users\alvin\OneDrive\Desktop\Sepa\admin\obj\Debug\admin.csproj.AssemblyReference.cache
-C:\Users\alvin\OneDrive\Desktop\Sepa\admin\obj\Debug\admin.csproj.CoreCompileInputs.cache
-C:\Users\alvin\OneDrive\Desktop\Sepa\admin\obj\Debug\admin.dll
-C:\Users\alvin\OneDrive\Desktop\Sepa\admin\obj\Debug\admin.pdb
