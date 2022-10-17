@@ -1,5 +1,6 @@
 ﻿namespace PTSLibrary
 {
+    //Marshal by Value
     [Serializable]
     public class TeamLeader : User
     {

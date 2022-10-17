@@ -1,12 +1,13 @@
 using PTSLibrary;
-using PTSLibrary.Facade_Objects;
 using System.Reflection.Metadata;
 
 namespace AdminApplication
 {
     public partial class frmAdmin : Form
     {
+        //PTS Library Objects
         private PTSAdminFacade facade;
+        
         private int adminId;
         private Student[] students;
         private Project[] projects;
@@ -27,6 +28,7 @@ namespace AdminApplication
 
         }
 
+        //Login Button
         private void btnLogin_Click(object sender, EventArgs e)
         {
             try
@@ -58,6 +60,7 @@ namespace AdminApplication
 
         }
 
+        //Populates combo box with the students in Student table
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(tabControl1.SelectedIndex == 1)
@@ -69,12 +72,13 @@ namespace AdminApplication
             }
         }
 
+        //Add Project Button
         private void btnAddProject_Click(object sender, EventArgs e)
         {
             DateTime startDate;
             DateTime endDate;
 
-            if(txtProjectName.Text == "")
+            if(txtProjectName.Text == "" || txtProjectStart.Text == "" || txtProjectEnd.Text == "" || cbStudent.Text == "")
             {
                 MessageBox.Show("You need to fill in the name field");
                 return;
@@ -95,11 +99,12 @@ namespace AdminApplication
             txtProjectStart.Text = "";
             txtProjectEnd.Text = "";
             cbStudent.SelectedIndex = 0;
-            MessageBox.Show("Proect Succesfully created");
+            MessageBox.Show("Project Succesfully created");
             tabControl2.SelectTab(1);
 
         }
 
+        //Fills project data and cohort data in the text fields
         private void tabControl2_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (tabControl2.SelectedIndex == 1)
@@ -117,6 +122,7 @@ namespace AdminApplication
             }
         }
 
+        //Set Project Details Method
         private void setProjectDetails()
         {
             selectedProject = projects[cbProjects.SelectedIndex];
@@ -127,6 +133,7 @@ namespace AdminApplication
             
         }
 
+        //Update Task Method
         private void UpdateTasks()
         {
             tasks = facade.GetListOfTasks(selectedProject.ProjectId);
@@ -140,12 +147,13 @@ namespace AdminApplication
             setProjectDetails();
         }
 
+        //Add Task Button
         private void btnAddTask_Click(object sender, EventArgs e)
         {
             DateTime startDate;
             DateTime endDate;
 
-            if(txtTaskName.Text == "")
+            if(txtTaskName.Text == "" || txtTaskStart.Text == "" || txtTaskEnd.Text == "" || cbCohorts.Text == "")
             {
                 MessageBox.Show("You need to fill in the name field");
                 return;
@@ -153,8 +161,8 @@ namespace AdminApplication
 
             try
             {
-                startDate = DateTime.Parse(txtTaskName.Text);
-                endDate = DateTime.Parse(txtTaskName.Text);
+                startDate = DateTime.Parse(txtTaskStart.Text);
+                endDate = DateTime.Parse(txtTaskEnd.Text);
             }
             catch(Exception)
             {

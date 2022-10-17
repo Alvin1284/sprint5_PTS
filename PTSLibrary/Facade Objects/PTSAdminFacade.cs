@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PTSLibrary.Facade_Objects
+namespace PTSLibrary
 {
     public class PTSAdminFacade : PTSSuperFacade
     {
@@ -21,13 +21,13 @@ namespace PTSLibrary.Facade_Objects
             }
             return dao.Authenticate(username, password);
         }
-        public void CreateProject(string name, DateTime startDate, DateTime endDate, int studentId, int administratorId)
+        public void CreateProject(string name, DateTime startDate, DateTime endDate, int studentId, int adminId)
         {
             if (name == null || name == "" || startDate == null || endDate == null)
             {
                 throw new Exception("Missing Data");
             }
-            dao.CreateProject(name, startDate, endDate, studentId, administratorId);
+            dao.CreateProject(name, startDate, endDate, studentId, adminId);
         }
         public Student[] GetListOfStudents()
         {

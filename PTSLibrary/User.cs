@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace PTSLibrary
 {
+    //Marshal by Value
     [Serializable]
     public class User
     {

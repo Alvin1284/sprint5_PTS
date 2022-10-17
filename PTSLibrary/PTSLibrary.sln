@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTSLibrary", "PTSLibrary.csproj", "{91D1F235-38CF-4FF4-A78F-D795B0BA69A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApplication", "..\AdminApplication\AdminApplication.csproj", "{ED570C11-3EC6-4B4F-B6F9-B82F3E2DBB77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminApplication", "..\AdminApplication\AdminApplication.csproj", "{ED570C11-3EC6-4B4F-B6F9-B82F3E2DBB77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteServerApplication", "..\RemoteServerApplication\RemoteServerApplication.csproj", "{CE98564F-C4BD-40AD-BFCB-7A2848A8E85B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{ED570C11-3EC6-4B4F-B6F9-B82F3E2DBB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED570C11-3EC6-4B4F-B6F9-B82F3E2DBB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED570C11-3EC6-4B4F-B6F9-B82F3E2DBB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE98564F-C4BD-40AD-BFCB-7A2848A8E85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE98564F-C4BD-40AD-BFCB-7A2848A8E85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE98564F-C4BD-40AD-BFCB-7A2848A8E85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE98564F-C4BD-40AD-BFCB-7A2848A8E85B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

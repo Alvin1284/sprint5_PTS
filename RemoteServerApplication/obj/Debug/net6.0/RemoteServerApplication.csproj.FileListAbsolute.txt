@@ -1,0 +1,7 @@
+C:\Users\alvin\OneDrive\Desktop\SEPA\RemoteServerApplication\obj\Debug\net6.0\RemoteServerApplication.csproj.AssemblyReference.cache
+C:\Users\alvin\OneDrive\Desktop\SEPA\RemoteServerApplication\obj\Debug\net6.0\RemoteServerApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvin\OneDrive\Desktop\SEPA\RemoteServerApplication\obj\Debug\net6.0\RemoteServerApplication.AssemblyInfoInputs.cache
+C:\Users\alvin\OneDrive\Desktop\SEPA\RemoteServerApplication\obj\Debug\net6.0\RemoteServerApplication.AssemblyInfo.cs
+C:\Users\alvin\OneDrive\Desktop\SEPA\RemoteServerApplication\obj\Debug\net6.0\RemoteServerApplication.csproj.CoreCompileInputs.cache
+C:\Users\alvin\OneDrive\Desktop\SEPA\RemoteServerApplication\obj\Debug\net6.0\RemoteServerApplication.Properties.Resources.resources
+C:\Users\alvin\OneDrive\Desktop\SEPA\RemoteServerApplication\obj\Debug\net6.0\RemoteServerApplication.csproj.GenerateResource.cache

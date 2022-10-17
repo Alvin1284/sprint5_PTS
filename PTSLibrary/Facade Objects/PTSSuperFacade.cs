@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PTSLibrary.Facade_Objects
+namespace PTSLibrary
 {
     public class PTSSuperFacade : MarshalByRefObject
     {
@@ -17,7 +17,7 @@ namespace PTSLibrary.Facade_Objects
 
         public Task[] GetListOfTasks(Guid projectId)
         {
-            return (dao.GetListOfTasks(projectId)).ToArray();
+            return dao.GetListOfTasks(projectId).ToArray();
         }
     }
 }

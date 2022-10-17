@@ -55,7 +55,7 @@ namespace PTSLibrary.DAO
                 dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    Task t = new Task((Guid)dr["TaskId"], dr["Name"].ToString(),
+                    Task t = new Task((Guid)dr["TaskId"], dr["TaskName"].ToString(),
                    (Status)((int)dr["StatusId"]));
                     tasks.Add(t);
                 }

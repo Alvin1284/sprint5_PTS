@@ -20,7 +20,7 @@
     <Compile Update="Properties\Settings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
+      <DependentUpon>Settings.settings</DependentUpon>  
     </Compile>
   </ItemGroup>
 

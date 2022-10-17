@@ -519,6 +519,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(712, 483);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btnLogin);
@@ -526,6 +528,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
+            this.DoubleBuffered = true;
             this.Name = "frmAdmin";
             this.Text = "Administrator Tool";
             this.Load += new System.EventHandler(this.Form1_Load);
